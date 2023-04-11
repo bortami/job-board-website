@@ -1,0 +1,225 @@
+/*===GENERAL===*/
+$clr-dark:#2a2e3a;
+$clr-primary:#eca315;
+$clr-white:#fff;
+$clr-gray:#fffaf0;
+$clr-light-purple:#fffaf0 ;
+
+.site-text-primary{color:$clr-primary;}
+.site-bg-gray{background-color: $clr-gray;}
+.site-bg-light-purple {
+    background-color: $clr-light-purple;
+  }
+
+.footer-light{
+	color: $clr-dark;
+	background-color: $clr-light-purple;
+    .ftr-nw-content{
+		.ftr-nw-title{
+			font-size:20px;
+			color: $clr-dark;
+		}
+		.ftr-nw-form{
+			.ftr-nw-subcribe-btn{
+				background-color: $clr-primary;
+			}
+		}
+	}
+    .widget-title {
+        color: $clr-primary;
+    }
+    .social-icons{
+        margin: 0px;
+        li{
+            a {
+                color:$clr-primary;
+                &:hover {
+                    color: $clr-dark;
+                }
+            }
+        }
+    }
+	.widget_services{
+		ul{
+			li{
+				a:hover{
+					color: $clr-primary;
+				}
+			}
+		}  
+	} 
+}
+
+/*Banner home 10*/
+.twm-home-10-banner-section{
+	&.twm-bne-10-skew{
+		&:before{
+			background-color: $clr-primary;
+		}
+	}
+	.row{
+		.twm-bnr-left-section{
+			.twm-bnr-title-large-thin{
+				color: $clr-dark;
+			}
+			.twm-bnr-title-large-bold{
+				color: $clr-primary;
+			}
+		}
+	}
+	.twm-bnr-popular-search{
+		color: $clr-dark;
+		.twm-title{
+			color: $clr-dark;
+		}
+		a{
+			color: $clr-dark;
+			&:hover{
+				color: $clr-primary;
+			}
+		}
+	}
+
+	.twm-bnr-right-section{
+		.bnr-media-wrap{
+			background-color: $clr-primary;
+			.semi-circle {
+				background-color:$clr-dark;
+			  }
+		}
+	}
+	
+}
+
+
+.header-style-3{
+   .header-nav-btn-section{
+    .twm-nav-btn-right{
+        .twm-nav-post-a-job {
+         background-color: $clr-dark;
+        }
+    }
+    .twm-nav-btn-left{
+        .twm-nav-sign-up{
+            color: $clr-primary;
+            background-color: $clr-light-purple;
+        }
+       } 
+   } 
+   
+    .header-search{
+        a.header-search-icon{
+            color: $clr-dark;
+        }
+    }
+
+	.navbar-toggler{
+		.icon-bar {
+			background: $clr-dark;
+		}	
+	}
+
+    .header-nav{
+		.nav{
+			> li:hover{
+				> a {
+					color: $clr-primary;
+				}
+			} 
+			> li{
+				.sub-menu {
+					li:hover{
+						> a {
+							color: $clr-primary;
+						}
+					} 
+				}
+			} 	
+		} 
+
+		 
+	} 
+}
+
+
+
+.small-qb-box{
+	background-color: $clr-dark;;
+	span{
+		&.qb-2{
+			background-color: $clr-primary;
+		}
+		&.qb-3{
+			background-color: $clr-primary;
+		}
+	}
+}
+
+.site-button{background-color: $clr-dark;}
+.wt-small-separator{color: $clr-primary;}
+
+
+.description-list{
+    li{
+        i {
+            background-color:$clr-primary;
+        }
+    }   
+}
+
+
+.job-categories-block-2{
+	box-shadow: 0px 0px 25px rgba(56, 152, 226, 0.3);
+	&:after{
+		background-color: $clr-primary;
+	}
+	&:before{
+		background-color: $clr-primary;
+	}
+	.twm-media{
+		[class*='flaticon-']{
+			color: $clr-primary;
+		}
+
+	}
+	.twm-content{
+		.twm-jobs-available{
+			color: $clr-primary;
+            background-color: $clr-light-purple;
+		}
+	}
+	&:hover{
+		background-color: $clr-primary;
+	}
+}
+
+
+
+
+.twm-explore-content-2{
+	background-color: $clr-dark;
+	.twm-explore-top-section {
+		.twm-title-large{
+			p{
+				color: $clr-white;
+			}
+		}
+		.twm-read-more{
+			.site-button{
+				color: $clr-primary;
+				text-shadow: 0 0 0 $clr-primary, 400px 0 0 $clr-primary;
+				i{
+					color: $clr-primary;
+				}
+			}
+		}
+
+	  }
+
+	.twm-explore-media-wrap2{
+		&:after{
+			box-shadow: 20px 20px 0px $clr-primary inset ;
+		}
+	} 
+}
+
